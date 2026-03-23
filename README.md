@@ -76,6 +76,6 @@ The project consists of the following files:
 
 - `main.py` — entry point of the program; handles game flow and terminal interaction
 - `board.py` — implementation of the Kalah board and core game rules
-- `ai_test.py` — implementation of the AI opponent using Minimax with alpha-beta pruning
-- `ai.py` — duplicate copy of the AI implementation
+- `ai.py` — implementation of the AI opponent using Minimax with alpha-beta pruning
+- `ai_test.py` — duplicate copy of the AI implementation used for testing purposes
 
