@@ -1,21 +1,25 @@
 # Author: Romel Meza s215212
 
 from board import KalahaBoard
-from ai_test import KalahaAI
+from ai import KalahaAI
+
 
 def print_board(board):
     indent = "        "
     cell = 5
 
     top_labels = "".join(f"{i:^{cell}}" for i in [1, 2, 3, 4, 5, 6])
-    top_stones = "".join(f"{f'[{stones}]':^{cell}}" for stones in reversed(board.state[7:13]))
-    bottom_stones = "".join(f"{f'[{stones}]':^{cell}}" for stones in board.state[0:6])
+    top_stones = "".join(
+        f"{f'[{stones}]':^{cell}}" for stones in reversed(board.state[7:13]))
+    bottom_stones = "".join(
+        f"{f'[{stones}]':^{cell}}" for stones in board.state[0:6])
     bottom_labels = "".join(f"{i:^{cell}}" for i in [1, 2, 3, 4, 5, 6])
 
     middle_width = len(top_stones)
     left_store = f"[P2:{board.state[13]}]"
     right_store = f"[P1:{board.state[6]}]"
-    middle_line = left_store + " " * (middle_width - len(left_store) - len(right_store) + 15) + right_store
+    middle_line = left_store + " " * \
+        (middle_width - len(left_store) - len(right_store) + 15) + right_store
 
     print()
     print(indent + top_labels)
@@ -24,6 +28,7 @@ def print_board(board):
     print(indent + bottom_stones)
     print(indent + bottom_labels)
     print()
+
 
 def play_game():
     game = KalahaBoard()
