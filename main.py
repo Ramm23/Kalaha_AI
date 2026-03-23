@@ -72,6 +72,10 @@ def play_game():
     game.finalize_game()
     print_board(game)
     print("Game Over!")
+    if game.state[6] > game.state[13]:
+        print("You win!")
+    elif game.state[13] > game.state[6]:
+        print("You lose!")
 
 
 if __name__ == "__main__":
