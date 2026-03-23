@@ -6,7 +6,7 @@ This project is a terminal-based implementation of the board game **Kalaha** ,a 
 
 This submission is written in **Python 3** and therefore does **not require compilation** in the traditional sense. The program only needs to be executed from a terminal.
 
----
+
 
 ## Requirements
 
@@ -16,7 +16,7 @@ To run the game, the following is required:
 - A terminal or command prompt
 - No external libraries or additional packages are required
 
----
+
 
 ## How to Run the Program
 Clone the project
@@ -41,7 +41,7 @@ python3 main.py
 
 Once started, the game will display the board in the terminal and prompt the human player for input.
 
----
+
 
 ## How to Play
 
@@ -55,7 +55,7 @@ Once started, the game will display the board in the terminal and prompt the hum
 
 If an invalid input is entered, the program will request a new input.
 
----
+
 
 ## Board Representation
 
@@ -68,7 +68,7 @@ The board is displayed in the terminal using two rows:
 
 The pit numbering shown to the human player is **1 to 6** from left to right on the player's own side.
 
----
+
 
 ## Submitted Files
 
