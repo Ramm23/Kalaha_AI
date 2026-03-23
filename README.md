@@ -22,7 +22,7 @@ To run the game, the following is required:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Ramm23/Kalaha_AI.git
 ```
 
 1. Open the folder contaiining the project.
